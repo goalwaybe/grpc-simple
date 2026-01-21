@@ -19,3 +19,16 @@ grpc-simple/
 └── client/
     └── main.go # gRPC 客户端
 ```
+
+
+## ⚙️ 前置要求
+
+- Go 1.20+
+- [Protocol Buffers Compiler (`protoc`)](https://github.com/protocolbuffers/protobuf/releases)
+- Go gRPC 插件: `google.golang.org/protobuf/cmd/protoc-gen-go`
+- Go gRPC Gateway 插件（可选）: `google.golang.org/grpc/cmd/protoc-gen-go-grpc`
+
+安装插件（如未安装）：
+```bash
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
