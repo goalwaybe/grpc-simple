@@ -5,15 +5,17 @@
 
 ## 📁 项目结构
 
+```
 grpc-simple/
 ├── README.md
 ├── go.mod
 ├── go.sum
 ├── proto/
-│ └── greet.proto # gRPC 服务定义
+│   └── greet.proto # gRPC 服务定义
 ├── pb/ # 自动生成的 Protocol Buffer Go 代码
-│ └── greet.pb.go
+│   └── greet.pb.go
 ├── server/
-│ └── main.go # gRPC 服务端
+│   └── main.go # gRPC 服务端
 └── client/
-└── main.go # gRPC 客户端
+    └── main.go # gRPC 客户端
+```
