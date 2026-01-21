@@ -11,9 +11,6 @@
 
 ## 📁 项目结构
 
-## 项目结构
-
-
 grpc-simple/
 ├── README.md
 ├── go.mod
