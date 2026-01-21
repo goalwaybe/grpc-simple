@@ -1,16 +1,12 @@
-当然可以！以下是一个适用于 `grpc-simple` 项目的 **README.md** 模板。这个模板假设你的项目是一个使用 Go 编写的 gRPC 简单示例（比如包含服务端、客户端、.proto 文件等）。你可以根据实际内容进行调整。
 
----
 
-### ✅ 将以下内容保存为 `grpc-simple\README.md`
-
-```markdown
-# gRPC Simple Example (Go)
+## gRPC Simple Example (Go)
 
 这是一个使用 Go 语言编写的简单 gRPC 示例项目，展示了如何定义 `.proto` 服务、生成 Go 代码，并实现 gRPC 服务端与客户端。
 
 ## 📁 项目结构
 
+```markdown
 grpc-simple/
 ├── README.md
 ├── go.mod
@@ -23,7 +19,7 @@ grpc-simple/
 │   └── main.go
 └── client/
 └── main.go
-
+```
 
 ## ⚙️ 前置要求
 
@@ -94,18 +90,4 @@ go mod tidy
 
 ## 📝 许可证
 
-MIT License（可根据需要修改）
-```
-
----
-
-### ✅ 下一步建议：
-
-1. 打开 `grpc-simple` 文件夹。
-2. 新建一个名为 `README.md` 的文件。
-3. 将上述内容粘贴进去。
-4. 根据你项目中的实际文件路径、服务名、端口等细节微调内容（比如 `.proto` 文件名、包名、监听端口等）。
-
-如果你能提供项目当前的具体结构（比如 `greet.proto` 内容或 `server/main.go` 的片段），我可以帮你定制更精确的 README！
-
-需要我生成对应的 `.proto` 示例或服务端/客户端代码模板吗？
+本项目采用 [MIT 许可证](./LICENSE)。
