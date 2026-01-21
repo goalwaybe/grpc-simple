@@ -41,7 +41,7 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 在项目根目录运行：
 
 ```bash
-protoc --go_out=. --go-grpc_out=. proto/greet.proto
+protoc --go_out=. --go-grpc_out=. --proto_path=./proto ./proto/hello.proto
 ```
 
 这会生成 `pb/greet.pb.go` 和 `pb/greet_grpc.pb.go`（或类似路径，取决于你的 `option go_package` 设置）。
