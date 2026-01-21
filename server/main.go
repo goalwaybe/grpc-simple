@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	"google.golang.org/grpc"
 	"grpc-simple/pb"
 	"log"
 	"net"
+
+	"google.golang.org/grpc"
 )
 
 type HelloServer struct {
@@ -31,6 +32,6 @@ func main() {
 	grpcServer := grpc.NewServer()
 	pb.RegisterHelloServiceServer(grpcServer, &HelloServer{})
 
-	log.Println("gPRC server listening on :50051")
+	log.Println("gRPC server listening on :50051")
 	grpcServer.Serve(lis)
 }
